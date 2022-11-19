@@ -1,10 +1,18 @@
 
 function runProgram(input) {
 
+    let N = Number(input);
+
+    if (N % 2 == 0) {
+        console.log("Even");
+    } else {
+        console.log("Odd");
+    }
+
 }
 
 if (process.env.USERNAME === "Jay Mahakaal") {
-    runProgram(``);
+    runProgram(`3`);
 } else {
     process.stdin.resume();
     process.stdin.setEncoding("ascii");
